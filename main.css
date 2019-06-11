@@ -1,0 +1,85 @@
+.gameField {
+  position: relative;
+  background-image: url(bg.png);
+  width: 800px;
+  height: 600px;
+}
+
+.enemies {
+  position: absolute;
+  background-image: url(enemy.png);
+  background-position: 0px;
+  width: 45px;
+  height: 50px;
+}
+
+.hero {
+  position: absolute;
+  background-image: url(hero.png);
+  width: 35px;
+  height: 55px;
+  background-position: 0px;
+  left: 400px;
+  bottom: 0;
+}
+
+.timeSpan {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.enemyCount {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  top: 32px;
+  left: 0;
+}
+
+body {
+  display: flex;
+}
+
+.user-input {
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  padding-left: 10px;
+  margin: 20px;
+  margin-top: 0;
+  border: 2px solid black;
+}
+
+.userBtn {
+  width: 95px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.userBtn:hover,
+.user-input:hover {
+  border: 2px solid #40bf40;
+}
+
+.userName,
+.score,
+.restartBtn {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.restartBtn {
+  width: 400px;
+  height: 45px;
+}
+
+.input-wrap {
+  position: relative;
+  left: 30%;
+  top: 45%;
+}
